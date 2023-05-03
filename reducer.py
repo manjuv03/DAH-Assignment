@@ -1,22 +1,5 @@
 #!/usr/bin/python
 
-""" 
-INPUT: Output from mapper.py
-        Format of each line is: word\t1
-
-OUTPUT: E.g.
-            brown   1
-            dogs    1
-            fox     1
-            grey    1
-            jumped  1
-            lazy    1
-            over    1
-            quick   1
-            the     2
-"""
-
-
 import fileinput
 
 count = 0
