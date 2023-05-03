@@ -1,7 +1,6 @@
 # DAH-Assignment
 
 Programming Assignment
-
 Count the frequency of words in a text files.
 
 <li>MANJU SWAROOP V
