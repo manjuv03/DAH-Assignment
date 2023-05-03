@@ -1,22 +1,18 @@
 To Run Code
 
-```
 hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -mapper mapper.py -reducer reducer.py -file mapper.py -file reducer.py -input INPUT_DIR -output OUTPUT_DIR
-```
+
 
 Alternatively, add an alias defined to `~/.bashrc`:
-```
 run_mapreduce() {
         hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -mapper $1 -reducer $2 -file $1 -file $2 -input $3 -output $4
 }
 
 alias hs=run_mapreduce
-```
+
 
 and run with `hs mapper.py reducer.py INPUT_DIR OUTPUT_DIR`
 
-
-#To install Library  command: pip install ______
 
 Libraries Required
 1.string
